@@ -1,0 +1,169 @@
+html{
+	height :100%;
+}
+ #nav-top{
+display: grid;
+grid-template-columns: 1fr 60px 50px 100px 0px;
+grid-template-rows: 50px;
+grid-template-areas: " . 1 2 3 4" 
+} 
+
+#gmail{
+grid-area: "1";
+justify-self: right;
+align-self: center;
+padding-right: 10px;
+}
+#images{
+grid-area: "2";
+justify-self: center;
+align-self: center;
+}
+#applications{
+grid-area: "3";
+justify-self: center;
+align-self: center;
+}
+#connexion{
+grid-area: "4";
+justify-self: center;
+align-self: center;
+}
+
+a, p{
+	color: #585858;
+	font-size: 13px;
+	font-family: Arial, "sans-serif";
+	text-decoration: none;
+
+}
+
+#connexion{
+	color: white;
+	border: 1px #4285f4;
+	background-color: #0174DF;
+	height: 30px;
+	width: 90px;
+	border-radius: 3px;
+}
+
+#middle{
+display: flex;
+flex-direction : column;
+justify-content: center;
+height: 420px;
+align-items: center;
+margin-top: 50px;
+}
+
+#logo{
+height: 50px;
+align-self: center;
+margin-bottom: 70px
+}
+
+
+#flexbox{
+height: 40px;
+width: 500px
+align-self: center;
+}
+
+#recherche{
+	height: 40px;
+	width: 600px;
+	margin-bottom: 40px;
+	border-radius: 30px;
+	border: 1px solid #E6E6E6;
+}
+
+#bouton-google-search{
+color: #585858;
+font-size: 14px;
+font-family: Arial, "sans-serif";
+height: 35px;
+width: 150px;
+margin-right: 10px;
+border: 1px solid #E6E6E6;
+border-radius: 3px;
+}
+
+#bouton-jai-de-la-chance{
+color: #585858;
+font-size: 14px;
+font-family: Arial, "sans-serif";
+height: 35px;
+width: 150px;
+margin-left: 10px;
+border: 1px solid #E6E6E6;
+border-radius: 3px;
+}
+
+
+#footer{
+background-color: #F2F2F2;
+border: 1px solid #E6E6E6;
+position: absolute;
+bottom: O;
+display: grid;
+grid-template-columns: 70px 70px 70px 260px 530px 150px 100px 90px 90px;
+grid-template-rows: 50px;
+grid-template-areas: "pub ent prop com x inf conf cond param" 
+
+} 
+
+#publicité{
+grid-area: "pub";
+justify-self: center;
+align-self: center;
+}
+#entreprise{
+grid-area: "ent";
+justify-self: center;
+align-self: center;
+}
+#propos{
+grid-area: "prop";
+justify-self: center;
+align-self: center;
+}
+#comment{
+grid-area: "com";
+justify-self: center;
+align-self: center;
+}
+#x{
+grid-area: "x";
+justify-self: center;
+align-self: center;
+color:white;
+}
+#infos{
+grid-area: "inf";
+justify-self: center;
+align-self: center;
+}
+#confidentialite{
+grid-area: "conf" ;
+justify-self: center ;
+align-self: center ;
+}
+#conditions{
+grid-area: "cond";
+justify-self: center;
+align-self: center;
+}
+#paramètres{
+grid-area: "param";
+justify-self: center;
+align-self: center;
+}
+
+#footer1{
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 150px;
+	background-color: #F2F2F2;
+	height: 50px;
+	border: 1px solid #E6E6E6;
+}
